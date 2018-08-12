@@ -1,7 +1,7 @@
 Flow is a traffic modeling system that uses beacons, billboards, and parking lot lights to optimize traffic flow in venues 
 such as sports stadiums, concerts, and malls.
 
-https://github.com/shashank135sharma/Flow
+https://drive.google.com/open?id=1XTpj4hNVfXHg4aLxk79w1XGRSG8iP2-6
 
 ## Inspiration
 The inspiration for our project began when the three of us were tired of massive parking lot queues
@@ -30,7 +30,7 @@ The backend is built using node.js, mongoDB, and flask.
 
 Each beacon is built with arduino 101s communicating
 
-## Challenges we ran into
+Challenges we ran into
 One challenge we ran into was a variable metering response from the beacons. Because we are not using dedicated beacons, 
 the signals were inconsistent due to environmental factors such as outside bluetooth interference, physical obstacles, and 
 the physical limitations of the board. So, we wrote a high-pass function on the raw distances and took the average of the 
